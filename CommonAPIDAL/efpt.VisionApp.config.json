@@ -1,0 +1,214 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "VisionAppEntities",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "VisionAppModels",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "CommonAPIDAL",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[ALIATransactionLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ISODrivers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ISOVehicles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MakeModelLookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProgramMaster]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProgramRevision]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_AntiLockBrakeIndicator]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_AntiTheftIndicator]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_BodyInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_BodyStyle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_Chassis]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_Cylinders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_ElectronicStabilityControl]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_EngineInformation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_EngineType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_FieldChangeIndicator]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_Limits]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_Make]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_Restriant]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_SpecInfoSelector]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_VinSearchAuditDtl]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rapa2_VinSearchAuditHdr]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Staging_Applicant]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Staging_Coverage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Staging_Driver]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Staging_Policy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Staging_Vehicle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VIN_BodyStyle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VIN_Make]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VIN_ModelInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VinLiabilitySymbol]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Vinmaster]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VinrapaLiability]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VinrapaLiabilitySupplemental]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VinrapaPD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VinrapaSupplementalPD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WebPDFs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[spGetAFFNewMemberData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[spGetMemberSearchData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[spRAPA2UpdateSelectedDetail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[uspGetVINDataByManufacturerID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[uspGetVINDataByManufacturerIDLegacy]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[uspVinLookup_MannufacturerID_Type]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

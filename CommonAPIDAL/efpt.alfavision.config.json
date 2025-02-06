@@ -1,0 +1,130 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "BBDBEntities",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "BBDBModels",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "CommonAPIDAL",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[CreditReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ISO_XML_Backup_Hdr]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ISOMaster]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PolicyCoverageInterval]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PolicyData]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PolicySubject]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PolicySubjectHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Prefill_CV_Clue_ErrorLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PrefillOrderHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PrefillPolicyData]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ResultMaster]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RMTVehicleScores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Vehicles_From_ISO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[uspDrivers_From_ISO_Insert_LY]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[uspDrivers_From_ISO_Select_LY]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[uspDrivers_From_Prefill_Driver_Select_LY]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[uspDrivers_From_Previous_Prefill_Driver_Select_LY]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[uspISORawXML_Insert]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[uspPolicies_From_PrefillPolicyDatas]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[uspVehicles_From_Prefill_Vehicle_Select_LY]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[uspVSRawXML_Insert]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[uspXML_ISO_Data_View]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
